@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<files>
+	<file>
+		<sourceLocation>.\backupthisfolder</sourceLocation>
+		<activeBackup>True</activeBackup>
+		<destinationLocation>random</destinationLocation> 
+	</file>
+	<file>
+		<sourceLocation>.\testFile_1.txt</sourceLocation>
+		<activeBackup>true</activeBackup>
+		<destinationLocation>default</destinationLocation>
+	</file>
+</files>
