@@ -9,6 +9,6 @@
 	<file>
 		<sourceLocation>.\testFile_1.txt</sourceLocation>
 		<activeBackup>true</activeBackup>
-		<destinationLocation>default</destinationLocation>
+		<destinationLocation>.\filebackup</destinationLocation>
 	</file>
 </files>
