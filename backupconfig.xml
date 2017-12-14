@@ -4,7 +4,7 @@
 	<file>
 		<sourceLocation>.\backupthisfolder</sourceLocation>
 		<activeBackup>True</activeBackup>
-		<destinationLocation>random</destinationLocation> 
+		<destinationLocation>default</destinationLocation> 
 	</file>
 	<file>
 		<sourceLocation>.\testFile_1.txt</sourceLocation>

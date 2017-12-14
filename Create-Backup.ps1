@@ -3,7 +3,21 @@
     Create-Backup.ps1 reads in a configuration xml file and creates backups of files\folders at the given location.
 
 .DESCRIPTION
-    This script reads in
+    This script reads in the given xml file at the location specified by the ConfigFileLocation parameter.
+
+    XML Details:
+
+        Element: sourceLocation - Location of a file or folder you want to backup.  If this value is a file, the script will make a timestamped backup at the destination given by the 'destinationLocation' atribute name. If it is a folder,
+            the contents of that folder will be zipped and the zip file will be placed in the location specified by destinationLocation
+        Element: activeBackup - If this value is set to True, this script will perform a backup for given file\folder, otherwise the backup operation will be skipped.
+        Element: destinationLocation - location that the backups will be copied to. If default is specified, the script will use a default location.
+
+.PARAMETER ConfigFileLocation
+Specifies the location of the configuration XML.
+
+.EXAMPLE
+C:\> .\Create-Backup.ps1 -ConfigFileLocation .\backupconfig.xml
+
 #>
 
 param ( [Parameter(Mandatory=$true)]
