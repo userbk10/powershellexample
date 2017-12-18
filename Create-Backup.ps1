@@ -16,7 +16,7 @@
 Specifies the location of the configuration XML.
 
 .EXAMPLE
-C:\> .\Create-Backup.ps1 -ConfigFileLocation .\backupconfig.xml
+.\Create-Backup.ps1 -ConfigFileLocation .\backupconfig.xml
 
 #>
 
